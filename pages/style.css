@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f7f3;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  img.logo {
+    width: 120px;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+
+  p.description {
+    max-width: 600px;
+    font-size: 1.1rem;
+    margin: 1rem auto 2rem;
+  }
+
+  .projects {
+    max-width: 800px;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 2rem;
+}
+
+.projects h2 {
+    margin-bottom: 1.5rem;
+}
+
+.redirect-buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.redirect-option {
+    max-width: 350px;
+    text-align: left;
+}
+
+.redirect-option h3 a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    background-color: #005587;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.redirect-option p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.redirect-option h3 a:hover {
+    background-color: #0074b7;
+}
+
+  .about {
+    max-width: 800px;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 2rem;
+  }
+
+  .bios {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bio {
+    max-width: 300px;
+  }
+
+  .bio h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .bio p {
+    font-size: 0.95rem;
+  }
